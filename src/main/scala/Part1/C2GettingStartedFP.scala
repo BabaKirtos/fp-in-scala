@@ -120,8 +120,8 @@ object C2GettingStartedFP {
     println(formatResult("factorial", 7, factorial))
     println(formatResult("fibonacci", 10, fibonacci))
 
-    println(findFirstIndex(Array(0, 1, 2, 3, 4), _ % 2 == 0))
-    println(findFirstIndex(Array("Hi", "Bye", "wifi", "Neel", "Babu"), _.contains("Babu")))
+    println(findFirstIndex(Array(0, 1, 2, 3, 4), _ % 2 != 0))
+    println(findFirstIndex(Array("Hi", "Bye", "wifi", "Neel", "YoYo"), _.contains("wifi")))
 
     // testing isSorted
     val arr1 = Array(1, 2, 3, 4, 5)
